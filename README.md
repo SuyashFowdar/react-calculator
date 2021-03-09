@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A calculator project made with React.
 
 ## Available Scripts
 
@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Live Demo Link
+
+https://suyash-calculator.herokuapp.com/
+
+## Built With
+
+- HTML 
+- CSS
+- Linter
+- JS
+- Webpack
+- VScode
+- React
+
+## Contributing
+
+Contributions, issues and feature requests are welcome! Start by:
+
+  - Forking the project
+  - Cloning the project to your local machine
+  - cd into the project directory
+  - Run git checkout -b your-branch-name
+  - Make your contributions
+  - Push your branch up to your forked repository
+  - Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+
+
+## Author
+
+👤 Suyash Fowdar
+- Github: [@Krishnzzz](https://github.com/krishnzzz)
+- Twitter: [@twitterhandle](https://twitter.com/Krishnzzz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/suyash-fowdar-22b89514a/)
+
+## Show your Support
+Give a ⭐ if you like this project!
