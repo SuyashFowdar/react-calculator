@@ -3,10 +3,10 @@ import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 
 const App = () => (
-  <div>
-    <Display result="0" />
+  <>
+    <Display />
     <ButtonPanel />
-  </div>
+  </>
 );
 
 export default App;
