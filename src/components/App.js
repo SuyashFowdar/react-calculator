@@ -1,11 +1,16 @@
 import React from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
+import calculate from '../logic/calculate'; // eslint-disable-line
 
 const App = () => (
   <>
-    <Display />
-    <ButtonPanel />
+    <div className="row main-center cross-center h-100">
+      <div className="col">
+        <Display />
+        <ButtonPanel />
+      </div>
+    </div>
   </>
 );
 
