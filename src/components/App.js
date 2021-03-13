@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
-import calculate from '../logic/calculate'; // eslint-disable-line
+import calculate from '../logic/calculate';
 
 const App = () => {
   const [total, setTotal] = React.useState(null);
