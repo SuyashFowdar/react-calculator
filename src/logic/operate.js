@@ -16,7 +16,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = bigNumberOne.times(bigNumberTwo);
       break;
     case '÷':
-      if (bigNumberTwo === '0') {
+      if (numberTwo === '0') {
         result = 'Invalid operation: division by 0';
       } else {
         result = bigNumberOne.div(bigNumberTwo);
