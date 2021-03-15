@@ -3,7 +3,7 @@ import operate from './operate';
 const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
 
-  const operations = ['+', '-', 'x', '÷', '%'];
+  const operations = ['+', '-', 'x', '÷'];
 
   const reset = () => {
     total = null;
@@ -36,6 +36,12 @@ const calculate = (data, buttonName) => {
       next = operate(next, '-1', 'x');
     } else if (total) {
       total = operate(total, '-1', 'x');
+    }
+  } else if (buttonName === '%') {
+    if (next) {
+      next = operate(next, '0.01', 'x');
+    } else if (total) {
+      total = operate(total, '0.01', 'x');
     }
   } else if (next) {
     if (buttonName !== '.' || (buttonName === '.' && next.indexOf(buttonName) < 0)) {

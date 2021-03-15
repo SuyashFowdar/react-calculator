@@ -22,9 +22,6 @@ const operate = (numberOne, numberTwo, operation) => {
         result = bigNumberOne.div(bigNumberTwo);
       }
       break;
-    case '%':
-      result = bigNumberOne.mod(bigNumberTwo);
-      break;
     default:
       result = bigNumberOne.mod(bigNumberTwo);
   }
