@@ -19,8 +19,11 @@ const Calculator = () => {
   };
 
   return (
-    <div className="row main-center cross-center">
-      <div className="col">
+    <div className="row main-center cross-center container">
+      <div className="flex">
+        <h2>Let`s do some Math!</h2>
+      </div>
+      <div className="col calculator">
         <Display result={resultStr()} />
         <ButtonPanel handleClick={handleClick} />
       </div>

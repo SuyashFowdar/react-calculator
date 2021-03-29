@@ -6,34 +6,34 @@ const ButtonPanel = props => {
   const { handleClick } = props;
 
   return (
-    <div>
+    <div className="button-panel">
       <div className="row">
-        <Button handleClick={handleClick} name="AC" />
-        <Button handleClick={handleClick} name="+/-" />
-        <Button handleClick={handleClick} name="%" />
+        <Button handleClick={handleClick} name="AC" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="+/-" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="%" color="#E0E0E0" />
         <Button handleClick={handleClick} name="÷" />
       </div>
       <div className="row">
-        <Button handleClick={handleClick} name="7" />
-        <Button handleClick={handleClick} name="8" />
-        <Button handleClick={handleClick} name="9" />
+        <Button handleClick={handleClick} name="7" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="8" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="9" color="#E0E0E0" />
         <Button handleClick={handleClick} name="x" />
       </div>
       <div className="row">
-        <Button handleClick={handleClick} name="4" />
-        <Button handleClick={handleClick} name="5" />
-        <Button handleClick={handleClick} name="6" />
+        <Button handleClick={handleClick} name="4" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="5" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="6" color="#E0E0E0" />
         <Button handleClick={handleClick} name="-" />
       </div>
       <div className="row">
-        <Button handleClick={handleClick} name="1" />
-        <Button handleClick={handleClick} name="2" />
-        <Button handleClick={handleClick} name="3" />
+        <Button handleClick={handleClick} name="1" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="2" color="#E0E0E0" />
+        <Button handleClick={handleClick} name="3" color="#E0E0E0" />
         <Button handleClick={handleClick} name="+" />
       </div>
       <div className="row">
-        <Button handleClick={handleClick} name="0" />
-        <Button handleClick={handleClick} name="." />
+        <Button handleClick={handleClick} name="0" color="#E0E0E0" wide />
+        <Button handleClick={handleClick} name="." color="#E0E0E0" />
         <Button handleClick={handleClick} name="=" />
       </div>
     </div>
