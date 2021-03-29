@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="display row cross-center main-end"
+>
+  <div>
+    1
+  </div>
+</div>
+`;
